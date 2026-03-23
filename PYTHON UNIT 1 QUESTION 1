@@ -1,0 +1,21 @@
+# Create list
+my_list = [10, 20, 30, 40, 50]
+
+# Access elements
+print("First element:", my_list[0])
+
+# Add element
+my_list.append(60)
+print("After adding:", my_list)
+
+# Remove element
+my_list.remove(30)
+print("After removing:", my_list)
+
+# Sort list
+my_list.sort()
+print("Sorted list:", my_list)
+
+# Reverse list
+my_list.reverse()
+print("Reversed list:", my_list)
